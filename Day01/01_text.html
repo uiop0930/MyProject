@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 한글이 깨질 수 있다! → meta 사용 -->
+	<meta charset="utf-8">
+	<title>텍스트 연습</title>
+</head>
+<body>
+
+	이곳에 글씨를 쓰면 브라우저에 보입니다.
+	두번째 줄입니다. <!--(줄이 바뀌지 않습니다.)-->
+	띄어쓰기도          어차피 하나로만 인지됩니다.
+	특수문자 : ~!@#$%^&*()_+{}[]:;''""?><
+
+	&nbsp;&nbsp;&nbsp; <!--(띄어쓰기같은 역할!) non breaking space의 약자-->
+	&yen;<!--(엔화기호)-->
+	&#34;<!--번호로도 기호를 쓸 수 있다. →  "  -->
+	&amp;<!--  &  -->
+	&quot;<!--  "  -->
+	&lt;<!--  <  -->
+	&gt;<!--  >  -->
+	&copy;<!--  ©  -->
+
+	<p>단락요소는 자동으로 한줄을 차지하게 됩니다.</p>
+	<p>당연히 두번째 단락은 <br> 줄이 <!--중간주석--> 바뀌어 있습니다.</p>
+	<!-- br같은 요소를 empty element 라고 부른다. -->
+	<p>종료태그가 없어도 되지만.. html5의 표준은 아니므로 조심!</p>
+
+	<pre>
+
+		이 안에 쓴대로 보여진다.
+		이렇게 줄바꿈도 바로 적용된다!!
+
+
+		이렇게 두 줄을 띌 수도 있다.
+		<!-- 주석쓴다! -->
+
+		글꼴도 구조도 달라서 선호되는 방법은 아니다.
+	</pre>
+
+	<h1>This is Heading element</h1>
+	<h2>This is Heading element</h2>
+	<h3>This is Heading element</h3>
+	<h4>This is Heading element</h4>
+	<h5>This is Heading element</h5>
+	<h6>This is Heading element</h6>
+	<h7>This is Heading element</h7>
+	<!--html은 error가 나지는 않습니다. 그냥 보여줍니다!-->
+
+	<p>텍스트 서식 <strong>강하게</strong> 입니다.</p>
+	<p>텍스트 서식 <em>강조</em> 입니다.</p>
+	
+	<!-- 수평선 -->
+	<hr>
+
+</body>
+</html>

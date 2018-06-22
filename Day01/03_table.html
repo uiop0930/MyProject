@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Table 연습</title>
+</head>
+<body>
+
+	<table border="1">
+		<tr>
+			<th>no</th>
+			<th>name</th>
+			<th>message</th>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>Sam</td>
+			<td>Hello, My name is Sam!</td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>Robin</td>
+			<td>Nice to meet you!</td>
+			<!-- 각 행(row)의 Data(셀) 갯수가 다를 수 있습니다. -->
+			<td>20180530</td>
+		</tr>
+	</table>
+
+	<!-- 셀 병합 -->
+	<table border="1">
+
+	 <!-- 표 제목 -->
+	 <caption>
+	 	테이블 제목
+	 </caption>
+	 <!-- caption의 작성 위치와 상관없이 무조건 표의 상단에 위치하게된다. -->
+	 <!-- css를 배우면 위치 조정이 가능하다! -->
+
+		<tr>
+			<!-- span은 한 row만 있으면 적용이 되지 않는다. -->
+			<td rowspan="2">111</td>
+			<td colspan="3">222</td>
+			<td>333</td>
+		</tr>
+
+		<tr>
+			<td>444</td>
+			<td>555</td>
+			<td>666</td>
+		</tr>
+	</table>
+
+	<!-- Table <td></td>안에 다른 요소 넣기 -->
+	<table border="1" width="100%">
+		<tr>
+			<td width="30%">
+				<a href="http://www.naver.com">Naver</a>
+			</td>
+			<td>
+				<ul>
+					<li>aaa</li>
+					<li>bbb</li>
+					<li>ccc</li>
+				</ul>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<!-- <p>Table 안에는 어떤 요소도 넣을 수 있다.</p> -->
+				<p>sajdfakfdsalkfjsdlkfjlsdkjflksjafddsfsafsdafsdfsdfsdfsdfsdfdsafdsfdsafsffdafsdfsgasdgsdgl</p>
+				<!-- 한글과 영어에 따라 나오는 법이 다른데, 영어는 따로 설정을 하지 않으면 width가 무시된다. -->
+			</td>
+			<td>
+				<img src="flower2.jpg" width="30%">
+			</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
