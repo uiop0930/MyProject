@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>02_ex</title>
+</head>
+<body>
+
+	<ul>
+		<li>aaa</li>
+		<li>bbb</li>
+		<li>ccc</li>
+	</ul>
+
+	<ol>
+		<li>aaa</li>
+		<li>bbb</li>
+		<li>ccc</li>
+	</ol>
+
+	<dl>
+		<dt>aaa</dt>
+		<dd>- 이것은 Definition Data 입니다.</dd>
+		<dt>bbb</dt>
+		<dd>- 이것은 Definition Data 입니다.</dd>
+		<dt>ccc</dt>
+		<dd>- 이것은 Definition Data 입니다.</dd>
+	</dl>
+
+	<!-- anchor 요소 -->
+	<a href="http://www.naver.com">네이버</a>
+	<br>
+	<a href="01_text.html" target="_blank">상대주소 : 같은 사이트(서버 PC)</a>
+	<br>
+	<a href="#help">도움말 위치로</a>
+
+	<p id="help">도움말</p>
+
+	<!-- 위처럼 한 줄에 하나씩 anchor를 놓고싶다면 br대신 p요소를 사용한다. -->
+
+	<p><a href="#">aaa</a></p>	
+	<!-- 속성의 값을 빈칸으로 두지 말고 #을 쓰는것을 습관화하자. -->
+	<p><a href="#">bbb</a></p>	
+
+	<ul>
+		<li><a href="#">뉴스</a></li>
+		<li><a href="#">스포츠</a></li>
+		<li><a href="#">연예</a></li>
+	</ul>
+
+	<!-- 이메일 링크 -->
+	<p><a href="mailto:uiop0930@naver.com">uiop0930@naver.com</a></p>
+
+	<!-- 이미지 보기 링크 -->
+	<p><a href="https://file.okky.kr/images/1513127807083.jpg">Image Link</a></p>
+
+	<!-- 다운로드 링크 -->
+	<p><a href="../인피니티북스 html5_css3_javascript.zip">압축파일 다운로드</a></p>
+	<p><a href="../HTML 특수문자코드표.hwp">한글파일 다운로드</a></p>
+
+	<hr>
+
+	<!-- img 요소 -->
+	<img src="flower.jpg">	
+	<!-- 상대주소 (같은 폴더 안에있는 다른 경로), 기본 원본 사이즈 -->
+	<img src="flower.jpg" width="100%">	
+	<!-- 가로사이즈만 지정해도 세로가 알아서 조정된다.  //  단위를 적지 않으면 px단위, %를 잡으면 부모사이즈! (웹 페이지 크기에 따라 바뀐다.) -->
+	<img src="https://file.okky.kr/images/1513127807083.jpg">
+	<img src="aaa.jpg" alt="aaa 이미지">
+
+</body>
+</html>
